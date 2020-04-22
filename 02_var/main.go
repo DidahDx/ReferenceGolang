@@ -27,6 +27,20 @@ fmt.Println(name,age,names,isConnect,money,dob)
 
 //finding types of the variables
 fmt.Printf("%T",money)
+fmt.Println("*******")
 
+//pointers usage
+var firstName *string=new(string)
+//dereferencing
+*firstName="dani"
+fmt.Println(firstName)
+fmt.Println(*firstName)
 
+secondName:="rust"
+
+//address of operator &
+prt:=&secondName
+fmt.Println(prt,*prt)
+secondName="gest"
+fmt.Println(prt,*prt)
 }
