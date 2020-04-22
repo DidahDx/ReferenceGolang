@@ -43,4 +43,10 @@ prt:=&secondName
 fmt.Println(prt,*prt)
 secondName="gest"
 fmt.Println(prt,*prt)
+
+
+//constants
+const c=3
+fmt.Println(c+3)
+fmt.Println(c+1.2)
 }
