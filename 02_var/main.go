@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+//using iota with constants
+const(
+	first=iota +5
+	second
+	third
+	fourth
+	fifth
+)
+
 func main(){
 //using var 
 var name string="golang demo"
@@ -49,4 +58,6 @@ fmt.Println(prt,*prt)
 const c=3
 fmt.Println(c+3)
 fmt.Println(c+1.2)
+
+fmt.Println(first,second,third,fourth,fifth)
 }
