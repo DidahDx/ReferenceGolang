@@ -1,7 +1,7 @@
 ## Reference go programming 
 
 ### Commands 
--  `go run main.go` 
--  `go install  main.go`
--  `go build main.go`
--  `go get <package name>`
+-  Used to run the program `go run main.go` 
+-  Used to create an executable file `go install  main.go`
+-  Used to compile the program `go build main.go`
+-  Used to get the dependecies `go get <package name>`
