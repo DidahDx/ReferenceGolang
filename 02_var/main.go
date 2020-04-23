@@ -4,11 +4,9 @@ import "fmt"
 
 //using iota with constants
 const(
-	first=iota +5
-	second
-	third
-	fourth
-	fifth
+	 a = iota + 27
+    b = iota + 42
+    c
 )
 
 func main(){
@@ -55,9 +53,9 @@ fmt.Println(prt,*prt)
 
 
 //constants
-const c=3
-fmt.Println(c+3)
-fmt.Println(c+1.2)
+// const c=3
+// fmt.Println(c+3)
+// fmt.Println(c+1.2)
 
-fmt.Println(first,second,third,fourth,fifth)
+fmt.Println(c)
 }
