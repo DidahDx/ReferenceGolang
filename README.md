@@ -5,3 +5,5 @@
 -  Used to create an executable file `go install  main.go`
 -  Used to compile the program `go build main.go`
 -  Used to get the dependecies `go get <package name>`
+
+	`_` is used a write only variable 
